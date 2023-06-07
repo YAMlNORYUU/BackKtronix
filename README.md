@@ -20,10 +20,8 @@ El backend se conecta a una base de datos MySQL para almacenar y recuperar la in
 - `Producto`: representa un producto vendido en una venta.
 - `Trabajador`: representa a un trabajador de la empresa.
 
-El proyecto utiliza Spring Data JPA para la capa de persistencia y se definen los repositorios correspondientes para cada entidad.
+El proyecto utiliza Spring Data CrudRepository para la capa de persistencia y se definen los repositorios correspondientes para cada entidad.
 
-## Configuración
 
-Antes de ejecutar el proyecto, asegúrate de configurar correctamente la conexión a la base de datos MySQL. Para ello, modifica el archivo `application.properties` (o `application.yaml`) y configura los siguientes parámetros:
 
 
